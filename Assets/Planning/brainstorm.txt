@@ -1,0 +1,5 @@
+progressive beat-em-up
+enemies drop items, used in crafting
+free-crafting system
+    items classified as base, handle, attachments
+    modify attack damage, speed, stun, parry time/efficiency
