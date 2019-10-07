@@ -2,4 +2,55 @@ progressive beat-em-up
 enemies drop items, used in crafting
 free-crafting system
     items classified as base, handle, attachments
-    modify attack damage, speed, stun, parry time/efficiency
+    modify knockback, attack damage, speed, stun, parry time/efficiency
+
+
+
+Need to add:
+
+    Zombies
+    
+    !!!!!!!!!!  UI  !!!!!!!!!!
+
+
+    Platforms?
+        Bus stop
+        Garbage container
+        Balconies of background buildings
+
+
+    Visual FX
+        Rain + sound
+        Blood hit (more with damage)
+
+
+
+    Sound FX
+        - Hit sounds
+            - Player
+            - Zombies
+        - Footsteps (Player)
+        - Foot drag (Zombies)
+        - Zombie Idle
+        - Crafting sound
+        - Jump
+        - Weapon swing
+        - Weapon hit 
+
+    Music
+
+    --== items ==--
+
+    Core:
+        Baseball bat        high knockback
+        Pipe wrench         medium knockback, medium damage
+        Crowbar             low knockback, high damage
+        Fish                low knockback, low damage, high stun
+    Handle mod:
+        Grip tape           attack speed up
+        Broomstick          range up
+        Trashcan Lid        parry up
+    Attachments:
+        Barbed wire         damage up
+        Battery             stun up
+        Spring              knockback up

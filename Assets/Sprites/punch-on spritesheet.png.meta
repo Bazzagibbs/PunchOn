@@ -4,52 +4,94 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4281576163570636419
-    second: punch-on spritesheet_0
+    second: Punch0
   - first:
       213: -2989676984984089526
-    second: punch-on spritesheet_1
+    second: Punch1
   - first:
       213: -4878309121224229299
-    second: punch-on spritesheet_2
+    second: Punch2
   - first:
       213: 4355704871525473048
-    second: punch-on spritesheet_3
+    second: Walk6
   - first:
       213: 4457630387557518181
-    second: punch-on spritesheet_4
+    second: Walk0
   - first:
       213: 1998078819550706649
-    second: punch-on spritesheet_5
+    second: Walk1
   - first:
       213: -3188395278223657297
-    second: punch-on spritesheet_6
+    second: Walk2
   - first:
       213: 2280100089780645965
-    second: punch-on spritesheet_7
+    second: Idle0
   - first:
       213: 4261843461695810984
-    second: punch-on spritesheet_8
+    second: Idle1
   - first:
       213: -1021361672848564475
-    second: punch-on spritesheet_9
+    second: Idle2
   - first:
       213: 6564089134625833373
-    second: punch-on spritesheet_10
+    second: Swing0
   - first:
       213: 8470580837609886318
-    second: punch-on spritesheet_11
+    second: Swing2
   - first:
       213: 6942646078142922454
-    second: punch-on spritesheet_12
+    second: Swing3
   - first:
       213: 7609106837029754996
-    second: punch-on spritesheet_13
+    second: Swing4
   - first:
       213: -4542794701306165432
-    second: punch-on spritesheet_14
+    second: Swing5
   - first:
       213: -4516462691270781917
-    second: punch-on spritesheet_15
+    second: Swing6
+  - first:
+      213: -1253419807682550705
+    second: Z_Idle0
+  - first:
+      213: -3158982193144085518
+    second: Z_Atk0
+  - first:
+      213: -8170348130874966089
+    second: Z_Atk1
+  - first:
+      213: 4192226009425419267
+    second: Z_Atk2
+  - first:
+      213: -49164183238992925
+    second: Z_Atk3
+  - first:
+      213: -4465248665963086954
+    second: Z_Atk4
+  - first:
+      213: 6429993100875655023
+    second: Z_Walk0
+  - first:
+      213: -342958762031215314
+    second: Z_Walk1
+  - first:
+      213: -7493103002090633484
+    second: Z_Walk2
+  - first:
+      213: 5659957894551709091
+    second: Walk3
+  - first:
+      213: -2984834374857787054
+    second: Walk4
+  - first:
+      213: -4228903406510219078
+    second: Walk5
+  - first:
+      213: -7099726756400202324
+    second: Idle3
+  - first:
+      213: 5347153333796165753
+    second: Jump
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +176,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: punch-on spritesheet_0
+      name: Punch0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,20 +184,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2aa8c7bd38d88544b96f473e08b6972
+      spriteID: b3682cd7e1b86e54696d7e4b21b9ac86
       internalID: -4281576163570636419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_1
+      name: Punch1
       rect:
         serializedVersion: 2
         x: 16
@@ -163,20 +205,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3787bcfeb39d2fd4c958210ef4101508
+      spriteID: f0f087a85198071428bb362e02562bc9
       internalID: -2989676984984089526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_2
+      name: Punch2
       rect:
         serializedVersion: 2
         x: 32
@@ -184,20 +226,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc51b12aa8ac9c4192bcd66971eefe0
+      spriteID: c94b0d7c3f75177449c960d144343dfa
       internalID: -4878309121224229299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_3
+      name: Walk6
       rect:
         serializedVersion: 2
         x: 0
@@ -205,20 +247,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee8ff0b65b90ca0469227b77b3dbaa5c
+      spriteID: e57410ca364a8c348a7b9ec0faff39c8
       internalID: 4355704871525473048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_4
+      name: Walk0
       rect:
         serializedVersion: 2
         x: 16
@@ -226,20 +268,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14c2b984ca2da0141b1bc9476fa8497d
+      spriteID: c59f9d14d25e1e740aa0171f2530213a
       internalID: 4457630387557518181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_5
+      name: Walk1
       rect:
         serializedVersion: 2
         x: 32
@@ -247,20 +289,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a2da0098d596740b9539a21e0cb940
+      spriteID: 11815cfb3c49e1a428ea854aaa846884
       internalID: 1998078819550706649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_6
+      name: Walk2
       rect:
         serializedVersion: 2
         x: 48
@@ -268,20 +310,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6eaa1fc48559f54699c262314c116ac
+      spriteID: df77a09a50a3f8047a6cc0d96f4619d7
       internalID: -3188395278223657297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_7
+      name: Idle0
       rect:
         serializedVersion: 2
         x: 0
@@ -289,20 +331,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f6c079c20faa8429c4f31f4ea5cfca
+      spriteID: 6431c93a5a7112b42bc799ed9d47f631
       internalID: 2280100089780645965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_8
+      name: Idle1
       rect:
         serializedVersion: 2
         x: 16
@@ -310,20 +352,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b9e669cf7c2146478b7b3684f505c8f
+      spriteID: ae3292f667a14444bad2f4dc593ef8d4
       internalID: 4261843461695810984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_9
+      name: Idle2
       rect:
         serializedVersion: 2
         x: 32
@@ -331,20 +373,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668970bc8a75eda46b813cb69fc592ad
+      spriteID: 0beb7bd4d52e6224f8af83739bd5d43b
       internalID: -1021361672848564475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_10
+      name: Swing0
       rect:
         serializedVersion: 2
         x: 0
@@ -352,20 +394,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a6e5ec3fa352d8419a6b4e3cf3f0f65
+      spriteID: 1bb6175fead82a14985c5a9a4a6202c9
       internalID: 6564089134625833373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_11
+      name: Swing2
       rect:
         serializedVersion: 2
         x: 16
@@ -373,20 +415,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79a0352b6564c046b2e6aa782480e2d
+      spriteID: 6178c1f8a1dbdf146b4a9f2ac395d39b
       internalID: 8470580837609886318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_12
+      name: Swing3
       rect:
         serializedVersion: 2
         x: 32
@@ -394,20 +436,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 776d9483bc64c4a488f6ef957dde5b64
+      spriteID: 127caa08f1eea2143a405f0d16cd348a
       internalID: 6942646078142922454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_13
+      name: Swing4
       rect:
         serializedVersion: 2
         x: 48
@@ -415,20 +457,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1980e22f0cf7a7643b56a6aa0f8ecd3a
+      spriteID: 34ba9276c6817b1409b77fec4cf8235b
       internalID: 7609106837029754996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_14
+      name: Swing5
       rect:
         serializedVersion: 2
         x: 64
@@ -436,24 +478,255 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4263fb4c42d6a554ea8df6f841febea3
+      spriteID: ee486e741ba6f7b4c97d6f954cb4a8b3
       internalID: -4542794701306165432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punch-on spritesheet_15
+      name: Swing6
       rect:
         serializedVersion: 2
         x: 80
         y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab74d5dd7fe3da4f8767c626c6bbc05
+      internalID: -4516462691270781917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Idle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd33d449f0e31694fb98e790992095ff
+      internalID: -1253419807682550705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Atk0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759e48a0103d14b4ab253820cd3c1e7b
+      internalID: -3158982193144085518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Atk1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa474a1c784ec2644bad48d922bab30f
+      internalID: -8170348130874966089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Atk2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db518a5cb3f0f44e8e8ca39f8ddb0d8
+      internalID: 4192226009425419267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Atk3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc7150171f7204cb639e2da58079e0
+      internalID: -49164183238992925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Atk4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410f279e586320438e1907cbc841488
+      internalID: -4465248665963086954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Walk0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1111a0f02302afb49a821f53cc780d71
+      internalID: 6429993100875655023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Walk1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31002199bb991064297a4840e5c97b72
+      internalID: -342958762031215314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_Walk2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e89fa04e99e84dba4c89e47258893
+      internalID: -7493103002090633484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101e082ba1de1b4f9dff472d7ba3a01
+      internalID: 5659957894551709091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -463,8 +736,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d99278e0464afd746a413d2c4f31ad4d
-      internalID: -4516462691270781917
+      spriteID: 7796d374dddfb1c4eb9c78a73eb20ba3
+      internalID: -2984834374857787054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea734193fa0640a46b8379dc25cedf9d
+      internalID: -4228903406510219078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00381b8c698254245b5553bb2939d6ad
+      internalID: -7099726756400202324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cc3224f3c9add44bc76c881d6024c4
+      internalID: 5347153333796165753
       vertices: []
       indices: 
       edges: []
