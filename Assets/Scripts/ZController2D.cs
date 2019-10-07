@@ -9,7 +9,8 @@ using UnityEngine.Events;
 public class ZController2D : MonoBehaviour
 {
     public bool isStunned = false;
-    private float stunDuration = 0f;
+    private int stunDuration = 0;
+    public int targetStunDuration = 2;
 
     [SerializeField] private float walkSpeed = 4f;
     [SerializeField] private float minDistance = 0.5f;
@@ -18,7 +19,7 @@ public class ZController2D : MonoBehaviour
 
     private bool onGround = true;
     private Rigidbody2D rb;
-    private bool facingRight = true;
+    public bool facingRight = true;
     private Animator animator;
     private GameObject player;
 
@@ -40,35 +41,42 @@ public class ZController2D : MonoBehaviour
         Vector2 v = rb.velocity;
         Vector2 playerPos = player.transform.position;
         Vector2 pos = transform.position;
+        int walkDir = 1;
 
 
         // Movement
+
+        if (pos.x < playerPos.x)
+        {
+            walkDir = 1;
+        }
+
+        if (pos.x > playerPos.x)
+        {
+            walkDir = -1;
+        }
+
+
         if (!isStunned)
         {
-            if (pos.x < playerPos.x - minDistance)
-            {
-                v.x = 1 * walkSpeed;
-                animator.SetBool("Moving", true);
-            }
+            
 
-            if (pos.x > playerPos.x + minDistance)
-            {
-                v.x = -1 * walkSpeed;
-                animator.SetBool("Moving", true);
-
-            }
-
-            if (Vector2.Distance(pos, playerPos) < minDistance)
+            if (Mathf.Abs(pos.x - playerPos.x) < minDistance)
             {
                 v.x = 0;
                 animator.SetBool("Moving", false);
 
             }
+            else
+            {
+                v.x = walkSpeed * walkDir;
+                animator.SetBool("Moving", true);
+            }
         
 
        
 
-            if (v.x < 0 && facingRight || v.x > 0 && !facingRight)
+            if (walkDir == -1 && facingRight || walkDir == 1 && !facingRight)
             {
                 facingRight = !facingRight;
                 Vector2 s = transform.localScale;
@@ -76,7 +84,7 @@ public class ZController2D : MonoBehaviour
                 transform.localScale = s;
             }
         }
-        else stunDuration += 0.01f;
+        else stunDuration++;
         rb.velocity = v;
 
     }
@@ -92,10 +100,10 @@ public class ZController2D : MonoBehaviour
         onGround = (collider != null);
         animator.SetBool("OnGround", collider != null);
 
-        if (onGround && stunDuration > 0.2)
+        if (onGround && stunDuration > targetStunDuration)
         {
             isStunned = false;
-            stunDuration = 0f;
+            stunDuration = 0;
         }
 
     }
@@ -123,6 +131,8 @@ public class ZController2D : MonoBehaviour
         Gizmos.DrawWireCube(centre, size);
 
     }
+
+
 
 
 

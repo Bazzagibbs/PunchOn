@@ -41,16 +41,15 @@ Need to add:
 
     --== items ==--
 
-    Core:
-        Baseball bat        high knockback
-        Pipe wrench         medium knockback, medium damage
-        Crowbar             low knockback, high damage
-        Fish                low knockback, low damage, high stun
+    Core:                                                               knock   damage  stun
+        Baseball bat        high knockback                              +4
+        Pipe wrench         medium knockback, medium damage             +2      +1     
+        Crowbar             low knockback, high damage                  -2      +2    
+        Fish                low knockback, low damage, high stun        -2              +100
     Handle mod:
-        Grip tape           attack speed up
-        Broomstick          range up
-        Trashcan Lid        parry up
+        Grip tape           knockback up, stun up                       +2              +50
+        Trashcan Lid        knockback up                                +4
     Attachments:
-        Barbed wire         damage up
-        Battery             stun up
-        Spring              knockback up
+        Barbed wire         damage up                                           +2
+        Battery             stun up                                                     +100        
+        Spring              knockback up                                +4    

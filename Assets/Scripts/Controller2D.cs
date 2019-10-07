@@ -10,6 +10,7 @@ public class Controller2D : MonoBehaviour
 
     public bool isStunned = false;
     private float stunDuration = 0f;
+    private float targetStunDuration = 0.2f;
 
 
     [SerializeField] private float walkSpeed = 5f;
@@ -17,9 +18,9 @@ public class Controller2D : MonoBehaviour
     [SerializeField] private LayerMask groundMask = -1;
     [SerializeField] private Rect groundCheckCollider = new Rect(0f, -1f, .5f, .2f);
 
-
+    private PlayerAttack playerAttack;
     private Rigidbody2D rb;
-    private bool facingRight = true;
+    public bool facingRight = true;
     private bool onGround = true;
     private Collider2D coll;
     private Animator animator;
@@ -29,7 +30,7 @@ public class Controller2D : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
-
+        playerAttack = GetComponent<PlayerAttack>();
     }
 
     
@@ -39,7 +40,7 @@ public class Controller2D : MonoBehaviour
 
         Vector2 v = rb.velocity;
 
-        if (!isStunned)
+        if (!isStunned && playerAttack.alive)
         {
             if (!coll.IsTouchingLayers(groundMask) || onGround)
             {
@@ -75,6 +76,17 @@ public class Controller2D : MonoBehaviour
 
     }
 
+
+
+    public void DisableMovement()
+    {
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
+        coll.enabled = false;
+    }
+
+
+
     void Move(Vector2 velocity)
     {
         if (!coll.IsTouchingLayers(groundMask) || onGround)
@@ -104,7 +116,7 @@ public class Controller2D : MonoBehaviour
 
         onGround = (collider != null);
         animator.SetBool("OnGround",collider != null);
-        if (onGround && stunDuration > 0.2)
+        if (onGround && stunDuration > targetStunDuration)
         {
             isStunned = false;
             stunDuration = 0f;

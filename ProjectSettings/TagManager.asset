@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Weapon
+  - Modification
+  - RestartButton
+  - Pickup
+  - MenuButton
   layers:
   - Default
   - TransparentFX
@@ -19,8 +24,8 @@ TagManager:
   - Enemy
   - EnemyCollider
   - PlayerCollider
-  - 
-  - 
+  - ZombiesWall
+  - Pickup
   - 
   - 
   - 
@@ -39,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3343891343
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -47,7 +55,4 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 182921637
-    locked: 0
-  - name: Background
-    uniqueID: 3343891343
     locked: 0
