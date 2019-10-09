@@ -3639,8 +3639,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -809641433
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -6659586554161702001, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -4004,7 +4004,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 182921637
+  m_SortingLayerID: 431448671
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -5609481046141665398, guid: 3933acffe54255a42bf05eda3b67f6de,
@@ -4532,10 +4532,10 @@ MonoBehaviour:
     m_Bits: 1280
   groundCheckCollider:
     serializedVersion: 2
-    x: -0.37
-    y: -1.09
-    width: 0.75
-    height: 0.2
+    x: -0.4
+    y: -1.06
+    width: 0.81
+    height: 0.17
   facingRight: 1
 --- !u!50 &1119605286
 Rigidbody2D:
@@ -4697,7 +4697,7 @@ GameObject:
   - component: {fileID: 1145651292}
   - component: {fileID: 1145651291}
   - component: {fileID: 1145651293}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8365,7 +8365,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1145651289}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e043e856cd87b1648aec05ff05b500a0, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8439,8 +8439,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 431448671
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 6629345463565025453, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -8541,8 +8541,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -809641433
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 663468340972740420, guid: 3933acffe54255a42bf05eda3b67f6de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8747,8 +8747,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -809641433
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8829945249959909326, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -9000,8 +9000,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -809641433
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8882785238783327507, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -9291,8 +9291,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 431448671
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 5528623712872690669, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -9582,7 +9582,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 649.1, y: 158.66}
+  m_SizeDelta: {x: 738.2, y: 180.9}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1828302987
 MonoBehaviour:
@@ -9859,8 +9859,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -809641433
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 5544209929628714276, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -9961,8 +9961,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 431448671
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7119718343019492404, guid: 3933acffe54255a42bf05eda3b67f6de,
     type: 3}
@@ -10031,7 +10031,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.55
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000f7cea038a529e70a8fbb4fc7
+  m_ApplyToSortingLayers: 8fbb4fc700000000f7cea0385f62b71927dabdcfa529e70a
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -10126,7 +10126,8 @@ MonoBehaviour:
   nextSpawnTime: 600
   previousSpawnTime: 600
   initialSpawnTime: 600
-  minimumSpawnTime: 200
+  minimumSpawnTime: 120
+  spawnTimeDecrement: 20
   zombiePrefab: {fileID: 2158724401110286481, guid: e468333ff80c7e84287b4825fc3fd0e6,
     type: 3}
   drop: {fileID: 1871166278901621981, guid: d0a3b61374d10344dafede68cb0963d0, type: 3}

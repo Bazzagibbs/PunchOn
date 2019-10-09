@@ -13,6 +13,7 @@ public class SpawnController : MonoBehaviour
     public int previousSpawnTime = 600;
     public int initialSpawnTime = 600;
     public int minimumSpawnTime = 60;
+    public int spawnTimeDecrement = 30;
 
     public GameObject zombiePrefab;
     public DroppedItem drop;
@@ -39,7 +40,7 @@ public class SpawnController : MonoBehaviour
             if (nextSpawnTime > minimumSpawnTime)
             {
                 previousSpawnTime = nextSpawnTime;
-                nextSpawnTime = previousSpawnTime - 10;
+                nextSpawnTime = previousSpawnTime - spawnTimeDecrement;
             }
         }
     }

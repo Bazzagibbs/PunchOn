@@ -53,6 +53,12 @@ TagManager:
   - name: Player
     uniqueID: 950062839
     locked: 0
+  - name: CoreWeapon
+    uniqueID: 431448671
+    locked: 0
+  - name: Attachments
+    uniqueID: 3485325863
+    locked: 0
   - name: Foreground
     uniqueID: 182921637
     locked: 0
