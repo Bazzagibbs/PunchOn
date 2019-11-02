@@ -20,6 +20,9 @@ public class Item : MonoBehaviour
         DroppedItem droppedWeapon = Instantiate(dropPrefab, transform.position, transform.rotation);
         droppedWeapon.itemID = itemID;
         droppedWeapon.SpriteFromID();
+
+        Vector2 spawnVelocity = new Vector2(Random.Range(-1f, 1f), Random.Range(0.5f, 3f));
+        droppedWeapon.rb.velocity = spawnVelocity;
     }
 
 }

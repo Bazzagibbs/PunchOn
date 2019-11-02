@@ -12,9 +12,7 @@ using UnityEngine.SceneManagement;
 public class PlayerAttack : MonoBehaviour
 {
 
-#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
-    private AudioSource audio;
-#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
+    private AudioSource mAudio;
     private Animator anim;
     private Controller2D controller2D;
     private SpriteRenderer sprite;
@@ -46,7 +44,7 @@ public class PlayerAttack : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
-        audio = GetComponent<AudioSource>();
+        mAudio = GetComponent<AudioSource>();
         controller2D = GetComponent<Controller2D>();
         sprite = GetComponent<SpriteRenderer>();
         resetButton = GameObject.FindGameObjectWithTag("RestartButton");
@@ -163,7 +161,7 @@ public class PlayerAttack : MonoBehaviour
 
     void InjuredSound()
     {
-        audio.Play();
+        mAudio.Play();
     }
 
     public void ReceiveDamage(int damage)

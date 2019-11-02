@@ -80,7 +80,10 @@ public class PlayerWeapon : MonoBehaviour
         Debug.Log("Picked up " + other.name);
         if (parts[other.itemID].isBaseWeapon && hasBaseWeapon)
         {
-            parts[currentBaseWeaponIndex].DropWeapon();
+            foreach(Item i in parts)
+            {
+                if (i.isEnabled) i.DropWeapon();
+            }
         }
 
 

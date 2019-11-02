@@ -10,11 +10,13 @@ public class DroppedItem : MonoBehaviour
     public GameObject particleEffect;
     public Sprite[] sprites;
     public SpriteRenderer spriteRenderer;
+    public Rigidbody2D rb;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         SpriteFromID();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()

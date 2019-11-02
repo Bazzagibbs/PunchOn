@@ -10,12 +10,12 @@ public class LightFlicker : MonoBehaviour
     public float maxJump = 0.05f;
 
     private float currentIntensity = 0.9f;
-    private Light2D light;
+    private Light2D mlight;
 
     // Start is called before the first frame update
     void Start()
     {
-        light = GetComponent<Light2D>();
+        mlight = GetComponent<Light2D>();
     }
 
     // Update is called once per frame
@@ -24,6 +24,6 @@ public class LightFlicker : MonoBehaviour
 
         currentIntensity = Random.Range(Mathf.Max(intensityLow, currentIntensity - maxJump), Mathf.Min(intensityHigh, currentIntensity + maxJump));
 
-        light.intensity = currentIntensity;
+        mlight.intensity = currentIntensity;
     }
 }

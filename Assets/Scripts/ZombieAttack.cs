@@ -8,9 +8,7 @@ public class ZombieAttack : MonoBehaviour
     [SerializeField] private float range = 1.6f;
     private Animator animator;
     private GameObject player;
-#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
-    private AudioSource audio;
-#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
+    private AudioSource mAudio;
     private ZController2D zController;
     private bool alive = true;
 
@@ -31,7 +29,7 @@ public class ZombieAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
-        audio = GetComponent<AudioSource>();
+        mAudio = GetComponent<AudioSource>();
         zController = GetComponent<ZController2D>();
     }
 
@@ -127,7 +125,7 @@ public class ZombieAttack : MonoBehaviour
 
     void InjuredSound()
     {
-        audio.Play();
+        mAudio.Play();
     }
 
     public void ReceiveDamage(int damage, int stunDuration)
